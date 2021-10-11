@@ -5,7 +5,6 @@ function validar_nombreUsuario(String) {
    if (input != regxp) {
       return (regxp.test(input.value));
    }
-   console.log(123)
 }
 
 function validar_contrasena(String) {
